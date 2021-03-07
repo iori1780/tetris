@@ -27,8 +27,6 @@
   let can = document.getElementById('can');
   let con = can.getContext('2d');
 
-
-
   can.width        = SCREEN_W;
   can.height       = SCREEN_H;
   can.style.border = '2px solid #933';
@@ -312,8 +310,4 @@
 
     drawAll();
   }
-
-
-
-
 }
